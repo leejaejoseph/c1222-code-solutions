@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HTML Forms</title>
+</head>
+<body>
+  <form action="link.php" method="post" id="codeForm">
+    <h1>Coding Form!</h1>
+    <div>
+      <label for="email">Email</label>
+      <br />
+      <input id="email" type="email" placeholder="john.doe@gmail.com" required/>
+    </div>
+    <div>
+      <label for="reasons">Why is coding cool?</label>
+      <br />
+      <select id="reasons" name="reasons">
+        <option value="null" selected>Select an option</option>
+        <option value="interesting">Because it's interesting</option>
+        <option value="money">Because it pays bank</option>
+        <option value="memes">For the memes</option>
+      </select>
+    </div>
+    <div>
+      <p>Favorite Language (choose one)</p>
+      <input type="radio" name="language" id="html">
+      <label for="html">HTML</label>
+      <input type="radio" name="language" id="css">
+      <label for="css">CSS</label>
+      <input type="radio" name="language" id="javascript">
+      <label for="javascript">JavaScript</label>
+    </div>
+    <div>
+      <p>Would you like to sign up for more information?</p>
+      <input type="checkbox" id="signup" />
+      <label for="signup">Sign me up!</label>
+    </div>
+    <div>
+      <label>Comments</label>
+      <br />
+      <textarea rows="8" cols="25" placeholder="Enter your comments!"></textarea>
+      <br />
+      <input type="submit" value="Submit" />
+    </div>
+  </form>
+</body>
+</html>

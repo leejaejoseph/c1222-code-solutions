@@ -5,7 +5,6 @@
 
 .row {
   display: flex;
-  flex-flow: row wrap;
 }
 
 .column-one-fourth {
@@ -20,14 +19,6 @@
   flex-basis: calc(200% / 3);
 }
 
-.column-one-third > * {
-  width: 100%;
-}
-
-.column-two-third > * {
-  width: 100%;
-}
-
-.column-one-fourth > * {
+.items {
   width: 100%;
 }

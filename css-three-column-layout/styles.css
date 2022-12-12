@@ -17,13 +17,21 @@ body {
   display: flex;
 }
 
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-third {
+  flex-basis: calc(100% / 3);
+}
+
 .full {
   width: 100%;
   margin-top: 4rem;
   margin-bottom: 1rem;
 }
 
-.column {
+.ta-center {
   text-align: center;
 }
 
@@ -44,12 +52,6 @@ body {
 .icon {
   padding: 10%;
   width: 75%;
-}
-
-.third {
-  margin: 0 1rem;
-  flex-basis: calc(100% / 3);
-  padding: 0 0.25rem;
 }
 
 h2 {

@@ -6,7 +6,6 @@
 
 body {
   background-color: #1996da;
-  margin: 0;
 }
 
 .container {
@@ -25,10 +24,17 @@ body {
   flex-basis: calc(100% / 3);
 }
 
-.full {
-  width: 100%;
+.m-header {
   margin-top: 4rem;
   margin-bottom: 1rem;
+}
+
+.m-thirds {
+  margin-bottom: 1rem;
+}
+
+.p-0-2r {
+  padding: 0 2rem;
 }
 
 .ta-center {

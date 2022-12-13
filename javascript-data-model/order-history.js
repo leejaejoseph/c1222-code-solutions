@@ -10,7 +10,8 @@ var orderHistory = [
       item: 'JavaScript for impatient programmers',
       author: 'Rauschmayer, Dr. axel',
       return: 'Sep 7, 2020',
-      price: '$31.55'
+      price: '$31.55',
+      picture: 'url'
     }]
   ],
 
@@ -25,7 +26,8 @@ var orderHistory = [
       item: 'The Timeless Way of Building',
       author: 'Alexander, Christopher',
       return: 'Aug 19, 2020',
-      price: '$41.33'
+      price: '$41.33',
+      picture: 'url'
     }]
   ],
 
@@ -40,7 +42,8 @@ var orderHistory = [
       item: 'Gamecube Controller Adapter. Super Smash Bros Switch Gamecube Adapter for WII U, PC. Support Turbo and Vibration Features. No Driver and No Lag-Gamecube Adapter',
       author: '',
       return: 'Aug 5, 2020',
-      price: '$15.98'
+      price: '$15.98',
+      picture: 'url'
     }]
   ],
 
@@ -55,13 +58,15 @@ var orderHistory = [
       item: 'GameCube Controller - Super Smash Bros. Edition (Nintendo Switch)',
       author: '',
       return: 'Aug 4, 2020',
-      price: '$94.95'
+      price: '$94.95',
+      picture: 'url'
     },
     {
       item: 'The Art of SQL',
       author: 'Faroult, Stephane',
       return: 'Aug 4, 2020',
-      price: '$33.99'
+      price: '$33.99',
+      picture: 'url'
     }]
   ]
 ];

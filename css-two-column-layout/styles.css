@@ -38,42 +38,46 @@ h3 {
   display: flex;
 }
 
-.column-56 {
-  flex-basis: calc(100% / 1.78);
+.column-full {
+  flex-basis: 100%;
 }
 
 .column-half {
   flex-basis: calc(100% / 2);
 }
 
-.bm-2r {
-  margin-bottom: 2rem;
+.column-quarter {
+  flex-basis: 25%;
 }
 
-.column-margin {
-  margin: 0 5rem;
+.column-three-quarter {
+  flex-basis: 75%;
 }
 
-.ta-c {
-  text-align: center;
+.pd-3r {
+  padding: 0 3rem;
 }
 
-.ta-l {
-  text-align: left;
-}
-
-.w-55 {
-  width: 55%;
-}
-
-.pdr-5r {
-  padding-right: 5rem;
+.pd-lr-5r {
+  padding: 0 13rem;
 }
 
 .m-auto {
   margin: auto;
 }
 
-.m-0-auto {
-  margin: 0 auto;
+.mb-2r {
+  margin-bottom: 2rem;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
 }

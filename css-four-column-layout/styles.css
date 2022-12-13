@@ -19,27 +19,6 @@ h2 {
   text-align: center;
 }
 
-.icon {
-  width: 20%;
-}
-
-.m-auto {
-  margin: auto;
-}
-
-img {
-  width: 100%;
-}
-
-.flex-d-col {
-  display: flex;
-  flex-direction: column;
-}
-
-.a-i-center {
-  align-items: center;
-}
-
 h5 {
   font-weight: 800;
 }
@@ -49,6 +28,27 @@ p {
   font-weight: 400;
 }
 
+img {
+  width: 100%;
+}
+
+.icon {
+  width: 20%;
+}
+
+.m-auto {
+  margin: auto;
+}
+
 .m-lr-0-8 {
   margin: 0 0.8rem;
+}
+
+.flex-d-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.a-i-center {
+  align-items: center;
 }

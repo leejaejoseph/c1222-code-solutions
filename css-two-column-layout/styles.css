@@ -2,54 +2,9 @@
   font-family: Karla, sans-serif;
 }
 
-.container {
-  width: 90%;
-  margin: auto;
-}
-
-.row {
-  display: flex;
-}
-
-.column {
-  text-align: center;
-  margin: 0 auto;
-}
-
-.wrap {
-  flex-wrap: wrap;
-}
-
-.heading {
-  font-weight: 400;
-  font-size: x-large;
-}
-
-.top {
-  width: 55%;
-  margin: auto;
-}
-
 p {
   margin-top: 0;
   line-height: 2rem;
-}
-
-.bottom-margin {
-  margin-bottom: 2rem;
-}
-
-.two-column-layout {
-  flex-basis: calc(100% / 2);
-}
-
-.column-margin {
-  margin: 0 5rem;
-}
-
-.text-align-left {
-  text-align: left;
-  padding-right: 5rem;
 }
 
 button {
@@ -64,6 +19,61 @@ button {
   margin-top: 3rem;
 }
 
+h1 {
+  font-weight: bold;
+  font-size: 3em;
+  letter-spacing: 0.3rem;
+  margin-bottom: 1.5rem;
+}
+
 h3 {
   margin-top: 3rem;
+}
+
+.container {
+  width: 90%;
+}
+
+.row {
+  display: flex;
+}
+
+.column-56 {
+  flex-basis: calc(100% / 1.78);
+}
+
+.column-half {
+  flex-basis: calc(100% / 2);
+}
+
+.bm-2r {
+  margin-bottom: 2rem;
+}
+
+.column-margin {
+  margin: 0 5rem;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.ta-l {
+  text-align: left;
+}
+
+.w-55 {
+  width: 55%;
+}
+
+.pdr-5r {
+  padding-right: 5rem;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.m-0-auto {
+  margin: 0 auto;
 }

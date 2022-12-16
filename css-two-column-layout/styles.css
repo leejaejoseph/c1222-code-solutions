@@ -1,0 +1,83 @@
+* {
+  font-family: Karla, sans-serif;
+}
+
+p {
+  margin-top: 0;
+  line-height: 2rem;
+}
+
+button {
+  background-color: white;
+  color: #d14c45;
+  width: 10rem;
+  height: 2rem;
+  border-color: #d14c45;
+  font-weight: 700;
+  border-width: 2px;
+  border-style: solid;
+  margin-top: 3rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3em;
+  letter-spacing: 0.3rem;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  margin-top: 3rem;
+}
+
+.container {
+  width: 90%;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-half {
+  flex-basis: calc(100% / 2);
+}
+
+.column-quarter {
+  flex-basis: 25%;
+}
+
+.column-three-quarter {
+  flex-basis: 75%;
+}
+
+.pd-3r {
+  padding: 0 3rem;
+}
+
+.pd-lr-12r {
+  padding: 0 12rem;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.mb-2r {
+  margin-bottom: 2rem;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}

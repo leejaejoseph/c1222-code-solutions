@@ -1,4 +1,3 @@
-/*
 var $container = document.querySelector('.container');
 var $button = document.querySelector('button');
 
@@ -15,4 +14,3 @@ function displayFunc() {
 }
 
 $red.addEventListener('click', displayFunc);
-*/

@@ -1,13 +1,13 @@
 /* exported isLowerCased */
-// define a function named isLowerCased with 1 parameter word taking the string
+/* define a function named isLowerCased with 1 parameter word taking the string
+take the argument and loop through its length to see each letter
+check to see if the indexed value is not lowercased
+return false if condition sees UpperCased Value
+return true because the loop didnt find any UpperCased letter. */
 function isLowerCased(word) {
-  // take the argument and loop through its length to see each letter
   for (var i = 0; i < word.length; i++) {
-    // check to see if the indexed value is not lowercased
     if (word.charAt(i) !== word.charAt(i).toLowerCase()) {
-      // return false if condition sees UpperCased Value
       return false;
     }
-    // return true because the loop didnt find any UpperCased letter.
   } return true;
 }
